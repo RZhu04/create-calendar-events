@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "chrono-node": "^2.7.7",
+    "sugar-date": "^2.0.6"
+  },
+  "name": "create-calendar-events",
+  "version": "1.0.0",
+  "description": "A lightweight chrome extension that allows for speech-like text to be turned into a google event",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4"
+  }
+}

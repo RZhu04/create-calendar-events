@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Calendar Event Creator",
+    "version": "1.0",
+    "description": "Parse text and create Google Calendar events.",
+    "permissions": [
+      "storage",
+      "identity",
+      "calendar",
+      "https://api.openai.com/"
+    ],
+    "host_permissions": [
+      "https://api.openai.com/"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Create Calendar Event"
+    },
+    "icons": {
+      "16": "temp_icon.png",
+      "48": "temp_icon.png",
+      "128": "temp_icon.png"
+    },
+    "background": {
+      "service_worker": "dist/background.bundle.js"
+    },
+    "oauth2": {
+      "scopes": ["https://www.googleapis.com/auth/calendar.events"]
+    }
+  }

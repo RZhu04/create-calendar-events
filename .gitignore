@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+dist/
+
+# Environment & Secrets
+config.js
+.env
+*.pem
+secrets.json
+credentials.json
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+.DS_Store
